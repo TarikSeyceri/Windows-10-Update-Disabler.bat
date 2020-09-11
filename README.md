@@ -7,8 +7,11 @@ Error message shows when windows update disabled
 
 # Why Disable Windows Update?
 
+* Reasons NOT to Disable Windows Update
 
-# What does this tool delete exactly?
+* Reasons To Disable Windows Update
+
+# What does this tool do exactly?
 
 1. It disables windows update services and their helpers.
 2. It adds windows update prevention registry keys

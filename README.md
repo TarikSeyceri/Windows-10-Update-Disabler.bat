@@ -14,18 +14,18 @@ Error message shows when windows update disabled
 
 ## Reasons To Disable Windows Update
 * If you have a Potato PC (Slow, Low Memory, Low Storage, Old). We all have/had one.
-* If you have a Slow or Limited Internet Connection
+* If you have a Slow or Limited Internet Connection.
 * If you don't care about getting information leaked or getting hacked, no private data stored, basically a computer to play games for kids or something.
 * If you have a Closed Limited Network Environment or maybe VPN connected all the time.
 
 # What does this tool do exactly?
 
 1. It disables windows update services and their helpers.
-2. It adds windows update prevention registry keys
-3. It disables windows update task schedules
-4. It deletes already downloaded windows update files
-5. It deletes windows.old files
-6. It cleans windows temporary files
+2. It adds windows update prevention registry keys.
+3. It disables windows update task schedules.
+4. It deletes already downloaded windows update files.
+5. It deletes windows.old files.
+6. It cleans windows temporary files.
 
 # How to use?
 

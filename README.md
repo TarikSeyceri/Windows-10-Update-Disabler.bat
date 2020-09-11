@@ -7,9 +7,16 @@ Error message shows when windows update disabled
 
 # Why Disable Windows Update?
 
-* Reasons NOT to Disable Windows Update
+## Reasons NOT to Disable Windows Update
+* When disabling Windows Update, your Windows wouldn't have the latest Security Patches other than fixing bugs and adding new features which all provided by Microsoft. Windows Operating System has lots of bugs. New Security vulnerabilities get discovered every now and then, some are high-severity vulnerabilities.
 
-* Reasons To Disable Windows Update
+* Some Microsoft other services does not work properly when windows update is disabled, for an example, you must install Microsoft Office, Microsoft Visual Studio or MSSQL Server, etc.. before disabling windows update, because they get support from windows update to accomplish their installtion.
+
+## Reasons To Disable Windows Update
+* If you have a Potato PC (Slow, Low Memory, Low Storage, Old). We all have/had one.
+* If you have a Slow or Limited Internet Connection
+* If you don't care about getting information leaked or getting hacked, no private data stored, basically a computer to play games for kids or something.
+* If you have a Closed Limited Network Environment or maybe VPN connected all the time.
 
 # What does this tool do exactly?
 

@@ -16,7 +16,7 @@ This error message shows in update center, when windows update is disabled.
 * If you have a Potato PC (Slow, Low Memory, Low Storage, Old). We all have/had one.
 * If you have a Slow or Limited Internet Connection.
 * If you don't care about getting information leaked or getting hacked, no private data stored, basically a computer to play games for kids or something.
-* If you have a Closed Limited Network Environment or Virtual Machine, or maybe VPN connected all the time.
+* If you have a Closed Limited Network Environment or Virtual Machine, or maybe a VPN connected all the time.
 
 # What does this tool do exactly?
 

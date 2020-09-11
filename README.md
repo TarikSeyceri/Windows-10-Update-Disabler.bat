@@ -35,6 +35,6 @@ Error message shows when windows update disabled
 
 # Notes
 
-* This tool is in BETA, Still under testing. So far working fine!, i can't guarantee its safety, not just yet. I will test it on 15 production PCs for couple of months. then i can say it is safe. So use it under your own risk.
+* This tool is in BETA, Still under testing. So far working fine!, i can't guarantee its safety, not just yet. I will test it on 15 production PCs on VPN for couple of months. then i can say it is safe. So use it under your own risk.
 
 * It is written for Windows 10, not tested on other windows versions

@@ -1,7 +1,7 @@
 # Windows 10 Update Disabler
 An executable cmd batch script that 100% Disables Windows 10 Update.
 
-Error message shows when windows update disabled
+This error message shows in update center, when windows update is disabled.
 
 ![alt Preview](https://github.com/TarikSeyceri/Windows-10-Update-Disabler/raw/master/Windows%2010%20Update%20Disabled%20Error%20Message.png?raw=true)
 

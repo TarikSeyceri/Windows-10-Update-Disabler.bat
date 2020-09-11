@@ -12,7 +12,7 @@ Error message shown, when windows update disabled
 3. It disables windows update task schedules
 4. It deletes already downloaded windows update files
 5. It deletes windows.old files
-6. It cleans windows generally
+6. It cleans windows temporary files
 
 # How to use?
 

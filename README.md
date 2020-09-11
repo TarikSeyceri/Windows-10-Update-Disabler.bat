@@ -31,7 +31,7 @@ Error message shows when windows update disabled
 
 * Just download the "Windows 10 Update Disabler.bat", and right click on it then run as administrator.
 
-* You can renable windows update by downloading "Windows 10 Update Enabler.bat", and right clicking ot it then run as administrator. It will reverse the work of "Windows 10 Update Disabler.bat", however it doesn't recover the windows update files it deleted.
+* You can renable windows update by downloading "Windows 10 Update Enabler.bat", and right clicking on it then run as administrator. It will reverse the work of "Windows 10 Update Disabler.bat", however it doesn't recover the windows update files it deleted.
 
 # Notes
 

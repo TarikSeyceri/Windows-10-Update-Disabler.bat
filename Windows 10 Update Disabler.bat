@@ -64,7 +64,7 @@ echo Y | cacls "%SYSTEMDRIVE%\Windows 10 install\*.*" /T /grant administrators:F
 echo Please wait, this may take a while.
 rmdir /S /Q "%SYSTEMDRIVE%\Windows 10 install\"
 
-rem CleanWindows.v2.0.bat <!--
+rem Windows.Cleaner.v2.0.bat <!--
 rem Delete Temporary Files
 del /s /f /q %WinDir%\Temp\*.*
 del /s /f /q %WinDir%\Prefetch\*.*

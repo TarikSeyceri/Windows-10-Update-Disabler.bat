@@ -112,4 +112,5 @@ echo.
 echo Windows 10 Update Disabled, Restarting in 10 seconds.
 echo.
 
-pause
+pause > NUL
+exit

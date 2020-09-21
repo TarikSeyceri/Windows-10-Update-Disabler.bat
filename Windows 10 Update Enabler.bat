@@ -9,13 +9,17 @@ echo Welcome to Windows 10 Update Enabler
 echo.
 
 rem Check If User Has Admin Privileges
-NET SESSION >nul 2>&1
-if %ERRORLEVEL% EQU 0 (
+timeout /t 1 /nobreak > NUL
+openfiles > NUL 2>&1
+if %errorlevel%==0 (
     echo Running..
 ) else (
     echo You must run me as an Administrator. Exiting..
     echo.
-    pause
+    echo Right-click on me and select ^'Run as Administrator^' and try again.
+    echo.
+    echo Press any key to exit..
+    pause > NUL
     exit
 )
 

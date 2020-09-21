@@ -33,6 +33,11 @@ This error message shows in update center, when windows update is disabled.
 
 * You can renable windows update by downloading "Windows 10 Update Enabler.bat", and right clicking on it then run as administrator. It will reverse the work of "Windows 10 Update Disabler.bat", however it doesn't recover the windows update files it deleted.
 
+# Warnings!
+Do NOT Run this tool while installing any program or game. If you run it during any installation, the installation will most likely to fail, and you may not have the option to reinstall!
+
+This tool removes Windows.old files, for an example: if you updated from Windows 7 to Windows 10 and the Windows 7 Operating System's files still exist, and then you run this tool, it will delete all old Windows 7 Operating System's Files.
+
 # Notes
 
 * This tool is in BETA, Still under testing. So far working fine!, i can't guarantee its safety, not just yet. I will test it on 15 production PCs on VPN for couple of months. then i can say it is safe. So use it under your own risk.

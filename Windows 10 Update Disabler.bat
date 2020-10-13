@@ -59,12 +59,12 @@ del /s /f /q %WinDir%\SoftwareDistribution\Download\*.*
 
 rem Delete Update Helpers
 takeown /F %SYSTEMDRIVE%\Windows10Upgrade\* /R /A /D Y
-echo Y | cacls %SYSTEMDRIVE%\Windows10Upgrade\*.* /T /grant administrators:F
+echo Y| cacls %SYSTEMDRIVE%\Windows10Upgrade\*.* /T /grant administrators:F
 echo Please wait, this may take a while.
 rmdir /S /Q %SYSTEMDRIVE%\Windows10Upgrade\
 
 takeown /F "%SYSTEMDRIVE%\Windows 10 install\*" /R /A /D Y
-echo Y | cacls "%SYSTEMDRIVE%\Windows 10 install\*.*" /T /grant administrators:F
+echo Y| cacls "%SYSTEMDRIVE%\Windows 10 install\*.*" /T /grant administrators:F
 echo Please wait, this may take a while.
 rmdir /S /Q "%SYSTEMDRIVE%\Windows 10 install\"
 
@@ -99,12 +99,6 @@ md %WinDir%\Prefetch
 md %Temp%
 md %AppData%\Temp
 md %HomePath%\AppData\LocalLow\Temp
-
-rem Edit Windows.old Folder Privileges and Deleting It
-takeown /F %SYSTEMDRIVE%\Windows.old\* /R /A /D Y
-echo Y| cacls %SYSTEMDRIVE%\Windows.old\*.* /T /G administrators:F /C
-echo Please wait, this may take a while.
-rmdir /S /Q %SYSTEMDRIVE%\Windows.old\
 
 shutdown /r /f /t 10 /c "Windows 10 Update Disabled, Restarting in 10 seconds."
 

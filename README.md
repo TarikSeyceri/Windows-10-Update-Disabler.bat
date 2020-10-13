@@ -24,8 +24,7 @@ This error message shows in update center, when windows update is disabled.
 2. It adds windows update prevention registry keys.
 3. It disables windows update task schedules.
 4. It deletes already downloaded windows update files.
-5. It deletes windows.old files.
-6. It cleans windows temporary files.
+5. It cleans windows temporary files.
 
 # How to use?
 
@@ -34,9 +33,7 @@ This error message shows in update center, when windows update is disabled.
 * You can renable windows update by downloading "Windows 10 Update Enabler.bat", and right clicking on it then run as administrator. It will reverse the work of "Windows 10 Update Disabler.bat", however it doesn't recover the windows update files it deleted.
 
 # Warnings!
-1. Do NOT Run this tool while installing any program or game. If you run it during any installation, the installation will most likely to fail, and you may not have the option to reinstall!
-
-2. This tool removes Windows.old files, for an example: if you updated from Windows 7 to Windows 10 and the Windows 7 Operating System's files still exist, and then you run this tool, it will delete all old Windows 7 Operating System's Files.
+- Do NOT Run this tool while installing any program or game. If you run it during any installation, the installation will most likely to fail, and you may not have the option to reinstall!
 
 # Notes
 

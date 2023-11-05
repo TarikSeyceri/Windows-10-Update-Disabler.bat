@@ -1,5 +1,5 @@
 # Windows 10 Update Disabler
-An executable cmd batch script that 100% Disables Windows 10 Update.
+An executable CMD batch script that disables Windows 10 Update.
 
 This error message shows in update center, when windows update is disabled.
 
@@ -8,35 +8,30 @@ This error message shows in update center, when windows update is disabled.
 # Why Disable Windows Update?
 
 ## Reasons NOT to Disable Windows Update
-* When disabling Windows Update, your Windows wouldn't have the latest Security Patches other than fixing bugs and adding new features which all provided by Microsoft. Windows Operating System has lots of bugs. New Security vulnerabilities get discovered every now and then, some are high-severity vulnerabilities.
+* After disabling the Windows Update, your Windows wouldn't get the latest security patches except bug fixes and new features, which are all provided by Microsoft. Windows has plenty of bugs. New security vulnerabilities get discovered every now and then, some being highly severe.
 
-* Some Microsoft other services does not work properly when windows update is disabled, for an example, you must install Microsoft Office, Microsoft Visual Studio or MSSQL Server, etc.. before disabling windows update, because they get support from windows update to accomplish their installtion.
+* Other Microsoft services may not work properly after Windows Update is disabled, such as, Microsoft Office, Microsoft Visual Studio, MSSQL Server, etc.. You should install these set of applications beforehand, as they're dependent on Windows Update.
 
 ## Reasons To Disable Windows Update
-* If you have a Potato PC (Slow, Low Memory, Low Storage, Old). We all have/had one.
-* If you have a Slow or Limited Internet Connection.
-* If you don't care about getting information leaked or getting hacked, no private data stored, basically a computer to play games for kids or something.
-* If you have a Closed Limited Network Environment or Virtual Machine, or maybe a VPN connected all the time.
+* A potato PC.
+* A slow or limited internet connection.
+* If you don't care about getting your private info leaked. (Like a gaming PC for children to use)
+* If you have a limited network environment, a virtual machine, or a VPN connected at all times.
 
-# What does this tool do exactly?
+# What It Does
+* Disables Windows Update services and their helpers.
+* Adds Windows Update prevention registry keys.
+* Disables Windows update task schedules.
+* Cleans temporary Windows files (such as old update files).
 
-1. It disables windows update services and their helpers.
-2. It adds windows update prevention registry keys.
-3. It disables windows update task schedules.
-4. It deletes already downloaded windows update files.
-5. It cleans windows temporary files.
+# How to Use
+* Just download the "Windows 10 Update Disabler.bat", right click on the file and run it as administrator.
+* You can re-enable Windows Update by downloading "Windows 10 Update Enabler.bat" and repeating the same process. This will reverse the work "Windows 10 Update Disabler.bat" did. However, it does NOT recover previous Windows Update files.
 
-# How to use?
+# Warnings
+* Do NOT run this tool while installing any program or game. If you run it during any installation, the installation will most likely fail. You also may not have the possibility to reinstall them.
 
-* Just download the "Windows 10 Update Disabler.bat", and right click on it then run as administrator.
-
-* You can renable windows update by downloading "Windows 10 Update Enabler.bat", and right clicking on it then run as administrator. It will reverse the work of "Windows 10 Update Disabler.bat", however it doesn't recover the windows update files it deleted.
-
-# Warnings!
-- Do NOT Run this tool while installing any program or game. If you run it during any installation, the installation will most likely to fail, and you may not have the option to reinstall!
-
+  
 # Notes
-
-* This tool is in BETA, Still under testing. So far working fine!, i can't guarantee its safety, not just yet. I will test it on 15 production PCs on VPN for couple of months. then i can say it is safe. So use it under your own risk.
-
-* It is written for Windows 10, not tested on other windows versions
+* This tool is still in Beta stages. I will test it on a dozen of PCs which are in a private network. Use it under your own risk.
+* It is written for Windows 10, can not guarantee its effectiveness for other Windows versions.

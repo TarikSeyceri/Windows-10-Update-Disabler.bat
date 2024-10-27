@@ -34,6 +34,7 @@ This error message shows in update center, when windows update is disabled.
 
 # Warnings!
 - Do NOT Run this tool while installing any program or game. If you run it during any installation, the installation will most likely to fail, and you may not have the option to reinstall!
+  
 - This tool will not prevent a `Pending Windows Update` from installation, as the Pending process means everything is downloaded and almost installed and just a restart is required.
 
 # Notes
